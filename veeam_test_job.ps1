@@ -2,7 +2,7 @@
 # Amac: Ana scripte gitmeden önce tüm property'leri ekranda gör
 # Kullanim: script'i çalistirmadan önce $TEST_JOB'u değiştir
 
-$TEST_JOB = "Web-Servers-DijitalYayinlar-2_STO"   # <-- buraya test edilecek job adini yaz
+$TEST_JOB = "JOB_NAME"   # <-- buraya test edilecek job adini yaz
 
 # Veeam modülü
 try { Add-PSSnapin -Name VeeamPSSnapIn -ErrorAction Stop } catch {
